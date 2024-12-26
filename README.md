@@ -17,6 +17,40 @@ Dengan mengetahui kandungan air mineral, kita dapat mengkategorikan air berdasar
 
 ---
 
+##  🔍**Instalasi**
+
+1. **Clone Repositori:**
+   Buka terminal Anda dan clone repositorinya menggunakan git:
+   ```bash
+   git clone https://github.com/AGhafurr/UAP-ML.git
+   cd UAP-ML
+   ```
+
+2. **Siapkan Lingkungan Virtual (Opsional tapi Disarankan):**
+   Sangat dianjurkan untuk membuat lingkungan virtual untuk mengelola ketergantungan. Anda bisa menggunakan `venv` atau `conda`.
+
+   Menggunakan `venv`:
+   ```bash
+   python -m venv venv
+   source venv\Scripts\activate 
+   ```
+
+   Menggunakan `conda`:
+   ```bash
+   conda create -n uap-ml python=3.8  # atau versi yang Anda inginkan
+   conda activate uap-ml
+   ```
+
+3. **Instal Ketergantungan:**
+   Jika terdapat file `requirements.txt` di repositori, Anda bisa menginstal ketergantungan yang diperlukan menggunakan pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Jalankan Proyek:**
+   Tergantung pada struktur proyek, Anda mungkin perlu menjalankan skrip atau perintah tertentu untuk mengeksekusi fungsionalitas. Periksa dokumentasi untuk instruksi tentang cara menjalankan program utama atau pengujian.
+---
+
 ## 🛠️ **Feedforward Neural Network (FNN)**
 
 Model **Feedforward Neural Network (FNN)** digunakan untuk menganalisis data kualitas air secara komprehensif dan menyajikan wawasan yang relevan. FNN, yang terdiri dari beberapa lapisan tersembunyi, dilatih untuk mempelajari pola kompleks antara fitur input dan kategori output kualitas air.
